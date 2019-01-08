@@ -12,5 +12,5 @@ Rsources:
 aktueller Stand: Konzept fertig
 
 <div>
-<img src="./Scrennshots/KonzeptStageSurviver.jpg" width="250">
+<img src="./Scrennshots/Konzept_StageSurviver.png" width="250">
 </div>
