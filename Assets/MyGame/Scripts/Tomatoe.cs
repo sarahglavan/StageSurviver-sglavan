@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Tomatoe : MonoBehaviour {
-
+    GameLogic gameLogic;
    
 
 	// Use this for initialization
 	void Start () {
+        gameLogic = GameObject.FindGameObjectWithTag("Manager").GetComponent<GameLogic>();
 		
 	}
 	
@@ -21,14 +22,17 @@ public class Tomatoe : MonoBehaviour {
     {
         if (col.CompareTag("Player"))
         {
+            gameLogic.DecreaseTomatos(1);
             Destroy(this.gameObject);
         }
         else if (col.CompareTag("Ground"))
         {
             Destroy(this.gameObject);
         }
+
     }
 }
 
 // wenn dich Tomaten treffen soll man ein Leben Leben verlieren. Der Counter 
 // soll von drei Leben runterzählen
+//ZAHL NOCH UPDTEN!!

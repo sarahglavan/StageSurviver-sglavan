@@ -6,8 +6,10 @@ using TMPro;
 public class GameLogic : MonoBehaviour {
     public TextMeshProUGUI TomatosNumber;
     public TextMeshProUGUI CoinNumber;
-    public int TomatoAmount = 3;
+    public int TomatoAmount;
+    public int MaxTomatoAmount;
     public int CoinAmount;
+    public GameObject Player;
 
 	// Use this for initialization
 	void Start () {
@@ -18,4 +20,15 @@ public class GameLogic : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    public void DecreaseTomatos(int amount){
+        TomatoAmount -= amount;
+    }
+
+    public void AddCoin(){
+        CoinAmount++;
+        
+    }
+
+
 }

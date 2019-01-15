@@ -7,9 +7,10 @@ Target Platform: WebGL (1920*1080)
 
 Steuerung: Pfeiltaste links, Pfeiltaste rechts, Mausklick (im Menü)
 
-Resources: tomatoe.png, background.png, coin.png, character.png (Copyright Sarah Glavan) 
+Resources: Unity Documentation
 
-aktueller Stand: alle pngs implementiert, Skripts angelegt
+aktueller Stand: Alles implementiert, Player,Tomato,Coin,Objspawner Script fertig.
+		60 % des gesamten Spiels fertig
 
 <div>
 <img src="./Screenshots/Konzept_StageSurviver.png" width="250">
