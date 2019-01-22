@@ -6,27 +6,45 @@ using TMPro;
 public class GameLogic : MonoBehaviour {
     public TextMeshProUGUI TomatosNumber;
     public TextMeshProUGUI CoinNumber;
-    public int TomatoAmount;
+    public int tomatoAmount;
     public int MaxTomatoAmount;
-    public int CoinAmount;
+    public int coinAmount;
     public GameObject Player;
+    private SceneLoader sceneLoader;
 
 	// Use this for initialization
 	void Start () {
-		
-	}
+        tomatoAmount = 3;
+        sceneLoader = GameObject.FindGameObjectWithTag("Manager").GetComponent<SceneLoader>();
+
+    }
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
 
-    public void DecreaseTomatos(int amount){
-        TomatoAmount -= amount;
+        if(tomatoAmount == 0){
+            Debug.Log("wechsle Scene");
+
+        }
+        TomatosNumber.text = tomatoAmount.ToString();
+        CoinNumber.text = coinAmount.ToString();
+
+    }
+
+    public void DecreaseTomatos(){
+        tomatoAmount--;
+        if (tomatoAmount == 0)
+        {
+            sceneLoader.SwitchToScene("GameOver");
+        }
+
+       
+
     }
 
     public void AddCoin(){
-        CoinAmount++;
+        coinAmount++;
+
         
     }
 

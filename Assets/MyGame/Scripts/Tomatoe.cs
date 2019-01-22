@@ -22,7 +22,7 @@ public class Tomatoe : MonoBehaviour {
     {
         if (col.CompareTag("Player"))
         {
-            gameLogic.DecreaseTomatos(1);
+            gameLogic.DecreaseTomatos();
             Destroy(this.gameObject);
         }
         else if (col.CompareTag("Ground"))
