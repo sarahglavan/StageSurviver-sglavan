@@ -19,9 +19,11 @@ public class Coin : MonoBehaviour {
 	{
         if(col.CompareTag("Player")){
             Destroy(this.gameObject);
+            Debug.Log("playercollision");
         }
         else if(col.CompareTag("Ground")){
             Destroy(this.gameObject);
+            Debug.Log("groundcollision");
         }
 	}
 }
