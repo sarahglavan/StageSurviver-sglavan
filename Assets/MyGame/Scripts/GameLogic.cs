@@ -35,6 +35,7 @@ public class GameLogic : MonoBehaviour {
         tomatoAmount--;
         if (tomatoAmount == 0)
         {
+            PlayerPrefs.SetInt("coinAmount", coinAmount);
             sceneLoader.SwitchToScene("GameOver");
         }
 
