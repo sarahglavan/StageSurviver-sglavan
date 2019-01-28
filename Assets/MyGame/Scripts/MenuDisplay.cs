@@ -12,7 +12,7 @@ public class MenuDisplay : MonoBehaviour
 	void Start () 
     {
 
-        coinText.text = PlayerPrefs.GetInt ("coinAmount") .ToString ();
+        coinText.text = PlayerPrefs.GetInt("coinAmount").ToString();
 		
 	}
 	
