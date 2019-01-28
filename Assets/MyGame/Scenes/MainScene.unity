@@ -884,12 +884,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8387421a4793d4274a1c83574d7c71a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TomatosNumber: {fileID: 225589421}
-  CoinNumber: {fileID: 1066793065}
+  tomatoNumber: {fileID: 0}
+  coinNumber: {fileID: 0}
   tomatoAmount: 0
-  MaxTomatoAmount: 3
+  maxTomatoAmount: 0
   coinAmount: 0
-  Player: {fileID: 96507396}
+  player: {fileID: 96507396}
 --- !u!4 &955493084
 Transform:
   m_ObjectHideFlags: 0
@@ -1310,7 +1310,7 @@ GameObject:
   - component: {fileID: 1909736258}
   - component: {fileID: 1909736257}
   m_Layer: 0
-  m_Name: coin
+  m_Name: Coin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1421,7 +1421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 712f2b8f500874e9aa7c393ad154be4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enemy: {fileID: 1753478177585208, guid: f4c4685dfe86a4ece91ce062c2b6ab39, type: 2}
+  enemy: {fileID: 0}
   spawnRate: 1
 --- !u!114 &1998944689
 MonoBehaviour:
@@ -1434,7 +1434,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 712f2b8f500874e9aa7c393ad154be4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enemy: {fileID: 1120007782514182, guid: a2440ccbd2e5742ca9e175df3d2655a9, type: 2}
+  enemy: {fileID: 0}
   spawnRate: 2
 --- !u!1 &2091441000
 GameObject:

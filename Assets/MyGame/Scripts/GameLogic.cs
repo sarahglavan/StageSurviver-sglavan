@@ -3,48 +3,49 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class GameLogic : MonoBehaviour {
-    public TextMeshProUGUI TomatosNumber;
-    public TextMeshProUGUI CoinNumber;
+public class GameLogic : MonoBehaviour 
+{
+    public TextMeshProUGUI tomatoNumber;
+    public TextMeshProUGUI coinNumber;
     public int tomatoAmount;
-    public int MaxTomatoAmount;
+    public int maxTomatoAmount;
     public int coinAmount;
-    public GameObject Player;
+    public GameObject player;
     private SceneLoader sceneLoader;
 
-	// Use this for initialization
-	void Start () {
+	void Start () 
+    {
         tomatoAmount = 3;
         sceneLoader = GameObject.FindGameObjectWithTag("Manager").GetComponent<SceneLoader>();
 
     }
 	
-	// Update is called once per frame
-	void Update () {
+	void Update () 
+    {
 
-        if(tomatoAmount == 0){
-            Debug.Log("wechsle Scene");
+        if(tomatoAmount == 0)
+        {
+            Debug.Log ("wechsle Scene");
 
         }
-        TomatosNumber.text = tomatoAmount.ToString();
-        CoinNumber.text = coinAmount.ToString();
+        tomatoNumber.text = tomatoAmount.ToString();
+        coinNumber.text = coinAmount.ToString();
 
     }
 
-    public void DecreaseTomatos(){
-        tomatoAmount--;
+    public void DecreaseTomatos ()
+    {
+        tomatoAmount --;
         if (tomatoAmount == 0)
         {
             PlayerPrefs.SetInt("coinAmount", coinAmount);
             sceneLoader.SwitchToScene("GameOver");
         }
 
-       
-
     }
 
-    public void AddCoin(){
-        coinAmount++;
+    public void AddCoin() {
+        coinAmount ++ ;
 
         
     }

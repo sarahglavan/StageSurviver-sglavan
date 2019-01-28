@@ -2,22 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Tomatoe : MonoBehaviour {
+public class Tomatoe : MonoBehaviour 
+{
     GameLogic gameLogic;
    
-
-	// Use this for initialization
-	void Start () {
-        gameLogic = GameObject.FindGameObjectWithTag("Manager").GetComponent<GameLogic>();
+	void Start () 
+    {
+        gameLogic = GameObject.FindGameObjectWithTag ("Manager") .GetComponent<GameLogic> ();
 		
 	}
 	
-	// Update is called once per frame
-	void Update () {
-       
-
-		
-	}
     private void OnTriggerEnter2D(Collider2D col)
     {
         if (col.CompareTag("Player"))

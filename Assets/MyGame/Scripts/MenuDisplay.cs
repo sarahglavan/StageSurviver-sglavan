@@ -5,12 +5,14 @@ using TMPro;
 
 
 
-public class MenuDisplay : MonoBehaviour {
+public class MenuDisplay : MonoBehaviour 
+{
     public TextMeshProUGUI coinText;
-	// Use this for initialization
-	void Start () {
 
-        coinText.text = PlayerPrefs.GetInt("coinAmount").ToString();
+	void Start () 
+    {
+
+        coinText.text = PlayerPrefs.GetInt ("coinAmount") .ToString ();
 		
 	}
 	
