@@ -1399,7 +1399,7 @@ GameObject:
   - component: {fileID: 1675431351}
   - component: {fileID: 1675431350}
   m_Layer: 0
-  m_Name: Tomatoe
+  m_Name: Tomato
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1474,7 +1474,7 @@ GameObject:
   - component: {fileID: 1737537512}
   - component: {fileID: 1737537511}
   m_Layer: 0
-  m_Name: coin
+  m_Name: Coin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

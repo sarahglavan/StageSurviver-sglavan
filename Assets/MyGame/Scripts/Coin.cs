@@ -9,6 +9,7 @@ public class Coin : MonoBehaviour
     void Start () 
     {
         gameLogic = GameObject.FindGameObjectWithTag("Manager").GetComponent<GameLogic> ();
+        //gameLogic = null;
 
     }
 	
@@ -16,18 +17,32 @@ public class Coin : MonoBehaviour
 	{
         if (col.CompareTag("Player"))
         {
+            if (gameLogic != null)
+            {
+                gameLogic.AddCoin();
+                Destroy(this.gameObject);
+                Debug.Log("Gamelogic!=null");
+            }
+            else
+            {
+                Debug.Log("Gamelogic=null");
+            }
 
-            gameLogic.AddCoin ();
-            Destroy(this.gameObject);
 
             Debug.Log("playercollision");
         }
         else if(col.CompareTag("Ground"))
         {
+            if (gameLogic == null)
+            {
+                Debug.Log("Gamelogic=null22");
+                return;
+            }
             Destroy(this.gameObject);
             Debug.Log("groundcollision");
         }
-	}
+      
+    }
 
 
 

@@ -15,19 +15,15 @@ public class GameLogic : MonoBehaviour
 
 	void Start () 
     {
-        tomatoAmount = 3;
-        sceneLoader = GameObject.FindGameObjectWithTag("Manager").GetComponent<SceneLoader>();
+        tomatoAmount = 3; 
+        sceneLoader = GameObject.FindGameObjectWithTag("Manager").GetComponent<SceneLoader>(); //definiere Sceneloader Script den ich brauche
 
     }
 	
 	void Update () 
     {
 
-        if(tomatoAmount == 0)
-        {
-            Debug.Log ("wechsle Scene");
 
-        }
         tomatoNumber.text = tomatoAmount.ToString();
         coinNumber.text = coinAmount.ToString();
 

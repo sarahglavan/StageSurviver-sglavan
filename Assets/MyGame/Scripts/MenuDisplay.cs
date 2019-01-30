@@ -7,14 +7,14 @@ using TMPro;
 
 public class MenuDisplay : MonoBehaviour 
 {
-    public TextMeshProUGUI coinText;
+    public TextMeshProUGUI coinText; 
 
 	void Start () 
     {
 
-        coinText.text = PlayerPrefs.GetInt("coinAmount").ToString();
-		
-	}
+        coinText.text = PlayerPrefs.GetInt("coinAmount").ToString(); //Updated Text in der Gamover Scene
+
+    }
 	
 
 }
