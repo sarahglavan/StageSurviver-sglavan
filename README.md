@@ -8,6 +8,8 @@ His goal is surviveing and collecting as many coins as possible.
 
  + Status: 100%
 
+ + PLAY THE GAME HERE: https://www.sharemygame.com/share/06f40ff9-2cae-4f88-8234-940e1853417b (upload: 19.02.19 // 30 days online)
+
  + Development Platform: MacOS Mojave, Unity 2018.2.14, VS 7.7.2, Scripting Runtime Version: .NET 3.5
    Equivalent, API Compatibility Level: .NET 2.0 Subset
 
