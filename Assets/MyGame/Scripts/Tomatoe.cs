@@ -6,7 +6,7 @@ public class Tomatoe : MonoBehaviour
 {
     GameLogic gameLogic;
    
-	void Start () 
+	void Start() 
     {
         gameLogic = GameObject.FindGameObjectWithTag("Manager").GetComponent<GameLogic> () ;
 		

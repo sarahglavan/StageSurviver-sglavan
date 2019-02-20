@@ -247,7 +247,7 @@ GameObject:
   - component: {fileID: 632466991}
   - component: {fileID: 632466990}
   m_Layer: 5
-  m_Name: coin_counter_text
+  m_Name: CoinCounterText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -402,7 +402,7 @@ GameObject:
   - component: {fileID: 795042529}
   - component: {fileID: 795042528}
   m_Layer: 0
-  m_Name: TextMeshPro Text
+  m_Name: YourCoins
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -657,7 +657,7 @@ GameObject:
   - component: {fileID: 932532896}
   - component: {fileID: 932532895}
   m_Layer: 0
-  m_Name: Button (1)
+  m_Name: TryAgain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -928,7 +928,7 @@ GameObject:
   - component: {fileID: 1742735251}
   - component: {fileID: 1742735252}
   m_Layer: 0
-  m_Name: background
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1119,7 +1119,7 @@ GameObject:
   - component: {fileID: 1968925489}
   - component: {fileID: 1968925488}
   m_Layer: 0
-  m_Name: TextMeshPro Text
+  m_Name: GameOver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
