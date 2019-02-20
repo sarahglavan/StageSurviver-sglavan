@@ -26,8 +26,8 @@ His goal is surviveing and collecting as many coins as possible.
 	- TextMeshPro (TMP) is needed when opening the Unity Project!
 
  + Third party material:
- - https://unity3d.com/de/learn/tutorials/projects/2d-ufo-tutorial/controlling-player
- - https://www.youtube.com/watch?v=AI8XNNRpTTw
+ 	- https://unity3d.com/de/learn/tutorials/projects/2d-ufo-tutorial/controlling-player
+ 	- https://www.youtube.com/watch?v=AI8XNNRpTTw
 
 
  + Concept:
@@ -35,7 +35,7 @@ His goal is surviveing and collecting as many coins as possible.
 <img src="./Screenshots/Konzept_StageSurviver.jpg" width="250">
 </div>
 
- + Ingame Screenshots:
+ + In game Screenshots:
 <div>
 <img src="./Screenshots/WelcomeScene.png" width="250">
 </div>
@@ -46,10 +46,10 @@ His goal is surviveing and collecting as many coins as possible.
 <img src="./Screenshots/GameOverScene.png" width="250">
 </div>
 
- + Limitations
+ + Limitations:
    This Game is very simple. There is no stimulation for the user to play the game longer than a few minutes.
 
- + Lessons Learned
+ + Lessons Learned:
    - How to set up a game
    - RandomGenerator
    - Player Movement left, right (x-axis)
